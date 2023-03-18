@@ -1,0 +1,60 @@
+
+
+.position{
+    color: black;
+    text-decoration: underline 1px solid black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.193);
+}
+
+
+
+
+main{
+    position: relative;
+    height: 1300px;
+}
+
+
+
+.title11{
+    /* margin-top: 100px; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(249, 66, 46);
+}
+.bg{
+    /* background-color: black; */
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.Brand_card{
+    height: 300px;
+    width:300px ;
+    margin: 0 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.592);
+
+}
+
+.Brand_card:hover{
+    border: 2px solid rgb(253, 33, 33);   
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.741);
+    box-sizing: border-box;
+}
+
+.Brand_card img{
+    margin: 10px;
+    height: 280px;
+    width: 280px;
+}
+
